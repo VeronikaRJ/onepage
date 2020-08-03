@@ -1,0 +1,450 @@
+body {
+    background-color: #DDD !important;
+}
+.container {
+    background-color: #ffffff;
+}
+
+.nav {
+    display: flex;
+    width: 100%;
+    background-color: #303643;
+}
+.nav .btn {
+    width: 100px;
+    margin: 8px;
+    padding: 10px;
+    background-color: #303643;
+    color: #DDD;
+    border-radius: 0;
+    border: 1px solid #4f5363;
+}
+.nav .btn:hover {
+    background-color: #414655;
+}
+.navbar {
+    display: none; 
+    background-color: #303643;
+}
+
+.jumbotron h1, 
+.jumbotron h5 {
+    color: #EEEEEE;
+    text-shadow: 2px 2px 1px #333;
+}
+
+.jumbotron1 {
+    height: 250px;
+    background-image: url(D:/Cursos/onepage/assets/images/banner01.jpg);
+}
+
+.jumbotron2 {
+    height: 250px;
+    background-image: url(D:/Cursos/onepage/assets/images/wallpaper11.jpg);
+}
+
+.jumbotronform {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(D:/Cursos/onepage/assets/images/wallpaper03-opaco.png);
+    height: 750px;
+    margin-bottom: 0px !important;
+    border-radius: 0% !important;
+}
+
+.jcontent h6 {
+    width: 750px;
+    color: #303643 !important;
+}
+
+.jcontent .col-12{
+    width: 750px;
+    padding: 0;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.jcontent .form-group {
+    display: flex;
+    flex-direction: row;
+}
+
+.col-input input {
+    width: 365px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    background-color: transparent;
+    border: 1px solid #BBBBBB;
+}
+
+.col-textarea textarea {
+    width: 365px;
+    height: 105px !important;
+    margin-left: 10px;
+    resize: none;
+    background-color: transparent;
+    border: 1px solid #BBBBBB;
+}
+
+.jcontent .btn {
+    margin-left: 10px;
+    margin-top: 10px;
+    border: 1px solid #BBBBBB;
+}
+
+.card {
+    border-radius: 0% !important;
+    background-color: #F1EFF1 !important;
+}
+
+img {
+    border-radius: 0% !important;
+}
+.card-text {
+    height: 120px;
+}
+
+.card .btn {
+    width: 140px;
+}
+
+.card-deck {
+    margin-left: 50px !important;
+    margin-right: 50px !important;
+}
+
+.card-deck-1 {
+    margin-bottom: 30px;
+}
+
+.card-deck-2 {
+    margin-bottom: 30px;
+}
+
+.card-deck-3 {
+    margin-bottom: 30px;
+}
+
+.card-deck-4 {
+    margin-bottom: 30px;
+}
+ 
+.footer1 {
+  height: 160px;
+  padding-top: 30px;
+  color: #303643;
+  border-bottom: 1px solid #DDDDDD;
+}
+
+.footer1 h4 {
+    font-style: italic;
+}
+
+.footer1 p{
+    font-size: 16px;
+    font-style: italic;
+    font-weight: bold;
+    color: #4f5363;
+}
+
+.footer2 {
+    height: 40px;
+    line-height: 40px;
+    color: #4f5363;
+    font-size: 12px;
+}
+
+@media (max-width:575px) {
+    .nav {
+        display: none !important;
+    }
+
+    .navbar {
+        display: flex !important;
+    }
+
+    .card {
+        margin-bottom: 30px !important;
+    }
+
+    .card-deck-1 {
+        display: none !important;
+    }
+
+    .card-deck-1-12 {
+        display: flex !important;
+    }
+
+    .card-deck-2 {
+        display: none !important;
+    }
+
+    .card-deck-2-12 {
+        display: flex !important;
+    }
+
+    .card-deck-3 {
+        display: none !important;
+    }
+
+    .card-deck-3-1-2 {
+        display: none !important;
+        margin-bottom: 30px;
+    }
+
+    .card-deck-3-2-2 {
+        display: none !important;
+        margin-bottom: 30px;
+    }
+    .card-deck-3-12 {
+        display: flex !important;
+    }
+
+    .jcontent h6 {
+        width: 350px;
+        color: #303643 !important;
+    }
+
+    .jcontent .col-12{
+        width: 350px;
+        padding: 0;
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+
+    .jcontent .form-group {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .col-input input {
+        margin-right: 0px;
+    }
+
+    .col-textarea textarea {
+        margin-left: 0px;
+    }
+}
+
+@media (min-width: 576px) and (max-width:767px) {
+    .nav {
+        display: none !important;
+    }
+
+    .navbar {
+        display: flex !important;
+    }
+
+    .card {
+        margin-bottom: 30px !important;
+    }
+
+    .card-deck-1 {
+        display: none !important;
+    }
+
+    .card-deck-1-12 {
+        display: flex !important;
+    }
+
+    .card-deck-2 {
+        display: none !important;
+    }
+
+    .card-deck-2-12 {
+        display: flex !important;
+    }
+
+    .card-deck-3 {
+        display: none !important;
+    }
+
+    .card-deck-3-1-2 {
+        display: none !important;
+        margin-bottom: 30px;
+    }
+
+    .card-deck-3-2-2 {
+        display: none !important;
+        margin-bottom: 30px;
+    }
+    .card-deck-3-12 {
+        display: flex !important;
+    }
+
+    .jcontent h6 {
+        width: 350px;
+        color: #303643 !important;
+    }
+
+    .jcontent .col-12{
+        width: 350px;
+        padding: 0;
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+
+    .jcontent .form-group {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .col-input input {
+        margin-right: 0px;
+    }
+
+    .col-textarea textarea {
+        margin-left: 0px;
+    }
+}
+
+@media (min-width: 768px) and (max-width:991px) {
+    .nav {
+        display: flex !important;
+    }
+
+    .navbar {
+        display: none !important;
+    }
+
+    .card-deck-1 {
+        display: flex !important;
+    }
+
+    .card-deck-1-12 {
+        display: none !important;
+    }
+
+    .card-deck-2 {
+        display: flex !important;
+        
+    }
+
+    .card-deck-2-12 {
+        display: none !important;
+    }
+
+    .card-deck-3 {
+        display: none !important;
+    }
+
+    .card-deck-3-1-2 {
+        display: flex !important;
+        margin-bottom: 30px;
+    }
+
+    .card-deck-3-2-2 {
+        display: flex !important;
+        margin-bottom: 30px;
+    }
+
+    .card-deck-3-12 {
+        display: none !important;
+    }
+
+    .jcontent h6 {
+        width: 350px;
+        color: #303643 !important;
+    }
+
+    .jcontent .col-12{
+        width: 350px;
+        padding: 0;
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+
+    .jcontent .form-group {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .col-input input {
+        margin-right: 0px;
+    }
+
+    .col-textarea textarea {
+        margin-left: 0px;
+    }
+}
+
+@media (min-width: 992px) and (max-width:1199px) {
+    .navbar {
+        display: none !important;
+    }
+
+    .card-deck-1 {
+        display: flex !important;
+    }
+
+    .card-deck-1-12 {
+        display: none !important;
+    }
+
+    .card-deck-2 {
+        display: flex !important;
+    }
+
+    .card-deck-2-12 {
+        display: none !important;
+    }
+
+    .card-deck-3 {
+        display: flex !important;
+    }
+
+    .card-deck-3-1-2 {
+        display: none !important;
+        margin-bottom: 30px;
+    }
+
+    .card-deck-3-2-2 {
+        display: none !important;
+        margin-bottom: 30px;
+    }
+
+    .card-deck-3-12 {
+        display: none !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    .navbar {
+        display: none !important;
+    }
+
+    .card-deck-1 {
+        display: flex !important;
+    }
+
+    .card-deck-1-12 {
+        display: none !important;
+    }
+
+    .card-deck-2 {
+        display: flex !important;
+    }
+
+    .card-deck-2-12 {
+        display: none !important;
+    }
+
+    .card-deck-3 {
+        display: flex !important;
+    }
+
+    .card-deck-3-1-2 {
+        display: none !important;
+        margin-bottom: 30px;
+    }
+
+    .card-deck-3-2-2 {
+        display: none !important;
+        margin-bottom: 30px;
+    }
+
+    .card-deck-3-12 {
+        display: none !important;
+    }
+}
