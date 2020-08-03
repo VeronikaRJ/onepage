@@ -35,19 +35,19 @@ body {
 
 .jumbotron1 {
     height: 250px;
-    background-image: url(D:/Cursos/onepage/assets/images/banner01.jpg);
+    background-image: url(<?=$base;?>/assets/images/banner01.jpg);
 }
 
 .jumbotron2 {
     height: 250px;
-    background-image: url(D:/Cursos/onepage/assets/images/wallpaper11.jpg);
+    background-image: url(<?=$base;?>/assets/images/wallpaper11.jpg);
 }
 
 .jumbotronform {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-image: url(D:/Cursos/onepage/assets/images/wallpaper03-opaco.png);
+    background-image: url(<?=$base;?>/assets/images/wallpaper03-opaco.png);
     height: 750px;
     margin-bottom: 0px !important;
     border-radius: 0% !important;
