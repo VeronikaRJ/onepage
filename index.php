@@ -31,10 +31,11 @@ require "config.php"
                 <div class="navbar-collapse collapse" id="navbarMenu">
 
                     <div class="navbar-nav">
-                        <a href="#" class="nav-item nav-link active">Link1</a>
-                        <a href="#" class="nav-item nav-link">Link2</a>
-                        <a href="#" class="nav-item nav-link">Link3</a>
-                        <a href="#" class="nav-item nav-link">Link4</a>
+                        <a href="#" class="nav-item nav-link active">Homepage</a>
+                        <a href="#" class="nav-item nav-link">About Us</a>
+                        <a href="#" class="nav-item nav-link">Services</a>
+                        <a href="#" class="nav-item nav-link">Contact</a>
+                        <a href="#" class="nav-item nav-link">External</a>
                     </div>
 
                 </div>
